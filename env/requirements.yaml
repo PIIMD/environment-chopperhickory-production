@@ -10,6 +10,9 @@ dependencies:
 - name: mqttserver
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.62
+- name: priluxswiftlibrary
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.56
 - name: priluxwebui
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.276

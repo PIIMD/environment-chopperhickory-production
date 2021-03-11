@@ -1,7 +1,7 @@
 PipelineSecrets: {}
 priluxwebui:
   env:
-    App__CorsOrigins: "https://*.prilux.cloud,http://*.prilux.cloud,http://localhost:4200,http://localhost:8080,http://localhost:8081,http://localhost:3000,https://priluxwebuiv2.jx-staging.prilux.cloud,https://priluxwebui.jx-staging.prilux.cloud,https://.prilux.cloud",https://nix.dative.app"
+    App__CorsOrigins: "https://*.prilux.cloud,http://*.prilux.cloud,http://localhost:4200,http://localhost:8080,http://localhost:8081,http://localhost:3000,https://priluxwebuiv2.jx-staging.prilux.cloud,https://priluxwebui.jx-staging.prilux.cloud,https://.prilux.cloud,https://nix.dative.app"
 cleanup:
   Annotations:
     helm.sh/hook: pre-delete

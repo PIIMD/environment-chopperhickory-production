@@ -1,7 +1,14 @@
 PipelineSecrets: {}
 priluxwebui:
   env:
-    App__CorsOrigins: "https://*.prilux.cloud,http://*.prilux.cloud,http://localhost:4200,http://localhost:8080,http://localhost:8081,http://localhost:3000,https://priluxwebuiv2.jx-staging.prilux.cloud,https://priluxwebui.jx-staging.prilux.cloud,https://.prilux.cloud,https://nix.dative.app"
+    App__CorsOrigins: "https://*.prilux.cloud,http://*.prilux.cloud,http://localhost:4200,http://localhost:8080,http://localhost:8081,http://localhost:3000,https://priluxwebuiv2.jx-staging.prilux.cloud,https://priluxwebui.jx-staging.prilux.cloud,https://.prilux.cloud,https://nix.dative.app,https://plataforma.prilux.cloud,https://platform.prilux.cloud"
+prilux-vial-ui:
+  env:
+    NODE_ENV: "production"
+    REACT_APP_APP_BASE_URL: "https://prilux-vial-ui.jx-staging.prilux.cloud"
+    REACT_APP_REMOTE_SERVICE_BASE_URL: "https://priluxwebuiapi.jx-staging.prilux.cloud"
+    PUBLIC_URL: "https://plataforma.prilux.cloud"
+    GENERATE_SOURCEMAP: false
 cleanup:
   Annotations:
     helm.sh/hook: pre-delete

@@ -2,7 +2,7 @@ PipelineSecrets: {}
 priluxwebui:
   env:
     EncryptionKey: "8A7x!A%D*G-KaPdS"
-    App__CorsOrigins: "https://*.prilux.cloud,http://*.prilux.cloud,http://localhost:4200,http://localhost:8080,http://localhost:8081,http://localhost:3000,https://priluxwebuiv2.jx-staging.prilux.cloud,https://priluxwebui.jx-staging.prilux.cloud,https://.prilux.cloud,https://nix.dative.app,https://plataforma.prilux.cloud,https://platform.prilux.cloud"
+    App__CorsOrigins: "https://*.prilux.cloud,http://*.prilux.cloud,http://localhost:4200,http://localhost:8080,http://localhost:8081,http://localhost:3000,https://priluxwebuiv2.jx-staging.prilux.cloud,https://priluxwebui.jx-staging.prilux.cloud,https://.prilux.cloud,https://nix.dative.app,https://plataforma.prilux.cloud,https://platform.prilux.cloud,https://plataformav1.prilux.cloud"
 prilux-vial-ui:
   env:
     NODE_ENV: "production"

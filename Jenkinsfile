@@ -25,6 +25,7 @@ pipeline {
       steps {
         container('maven') {
           dir('env') {
+            input('pause here')
             sh 'helm init --client-only --stable-repo-url https://charts.helm.sh/stable && jx step helm apply'
           }
         }
